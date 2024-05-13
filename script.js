@@ -9,7 +9,7 @@ function addData() {
 
     // Cria um item de lista com os dados inseridos
     var listItem = document.createElement('li');
-    listItem.innerHTML =  '<br><strong>ALERTA:</strong> ' + alerta + '<br>' +
+    listItem.innerHTML =  '<br><strong>Notificação:</strong> ' + alerta + '<br>' +
                           '<br><strong>Usuário:</strong> ' + usuario + '<br>' +
                           '<br><strong>Caminho do arquivo:</strong> ' + caminhodoarquivo + '<br>' +
                           '<br><strong>Tipo de compartilhamento:</strong> ' + tipodecompartilhamento + '<br>' +
