@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <!-- Inserindo a imagem -->
+    <img src="https://www.xsite.com.br/img/logo.png" alt="Logo" style="display: block; margin: 0 auto; width: 200px;">
+
+    <h2>Formulário </h2>
+    <form id="emailForm">
+        <label for="alerta">ALERTA:</label>
+        <input type="text" id="alerta" name="alerta" value="ALERTA VARONIS" required>        
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <label for="caminhodoarquivo">Caminho do arquivo:</label>
+        <input type="text" id="caminhodoarquivo" name="caminhodoarquivo" required>
+        <label for="tipodecompartilhamento">Tipo de arquivo:</label>
+        <input type="text" id="tipodecompartilhamento" name="tipodecompartilhamento" required>
+        <label for="dataehora">Data e Hora:</label>
+        <input type="text" id="dataehora" name="dataehora" required>
+
+
+        <button type="button" onclick="addData()">Adicionar</button>
+    </form>
+
+    <h3>Dados para chamado:</h3>
+    <ul id="dataList" class="data-list">
+        <!-- Lista de dados inseridos será exibida aqui -->
+    </ul>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
