@@ -1,6 +1,6 @@
 function addData() {
     // Recupera os valores do formulário
-    var alerta = document.getElementById('alerta').value;
+    var notificacao = document.getElementById('notificacao').value;
     var usuario = document.getElementById('usuario').value;
     var caminhodoarquivo = document.getElementById('caminhodoarquivo').value;
     var tipodecompartilhamento = document.getElementById('tipodecompartilhamento').value;
@@ -9,7 +9,7 @@ function addData() {
 
     // Cria um item de lista com os dados inseridos
     var listItem = document.createElement('li');
-    listItem.innerHTML =  '<br><strong>Notificação:</strong> ' + alerta + '<br>' +
+    listItem.innerHTML =  '<br><strong>Notificação:</strong> ' + notificacao + '<br>' +
                           '<br><strong>Usuário:</strong> ' + usuario + '<br>' +
                           '<br><strong>Caminho do arquivo:</strong> ' + caminhodoarquivo + '<br>' +
                           '<br><strong>Tipo de compartilhamento:</strong> ' + tipodecompartilhamento + '<br>' +
